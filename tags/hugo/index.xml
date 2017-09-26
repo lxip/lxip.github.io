@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Tomorrow is 42</title>
+    <link>https://lxip.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Tomorrow is 42</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>Email Contact (lxip)</managingEditor>
+    <webMaster>Email Contact (lxip)</webMaster>
+    <lastBuildDate>Sun, 24 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lxip.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting there... static site</title>
+      <link>https://lxip.github.io/2017/09/getting-there...-static-site/</link>
+      <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/2017/09/getting-there...-static-site/</guid>
+      <description>I have been thinking for a while putting up a blog recording random stuff. It might be a better way to keep track what I&amp;rsquo;ve been looking at and regularize some massy notes. After wasting a summer leaving the plain template lying in my disk folder, it&amp;rsquo;s good to start now since the season is getting closer to my background picture.
+With the free domain provided by Github, there has been a good amount of choices for set up a static website/blog.</description>
+    </item>
+    
+  </channel>
+</rss>
