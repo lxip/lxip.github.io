@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Tomorrow is 42</title>
+    <link>https://lxip.github.io/categories/development/</link>
+    <description>Recent content in Development on Tomorrow is 42</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>Email Contact (lxip)</managingEditor>
+    <webMaster>Email Contact (lxip)</webMaster>
+    <lastBuildDate>Thu, 09 Nov 2017 00:32:36 -0500</lastBuildDate>
+    
+	<atom:link href="https://lxip.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The ultimate tour to my python environment</title>
+      <link>https://lxip.github.io/2017/11/the-ultimate-tour-to-my-python-environment/</link>
+      <pubDate>Thu, 09 Nov 2017 00:32:36 -0500</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/2017/11/the-ultimate-tour-to-my-python-environment/</guid>
+      <description>Like someone else who stepped into coding from other random fields might have experienced, I do find the lack of system level knowledge could significantly hinder the workflow. In a word, how to get a smoothly working environment for all your tools with minimum conflicts and collapse? Recently I encountered some After spending a whole day, Here I mainly talk about Python,</description>
+    </item>
+    
+  </channel>
+</rss>

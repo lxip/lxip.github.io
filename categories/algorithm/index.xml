@@ -14,13 +14,13 @@
     
     
     <item>
-      <title>Something about Fibonacci sequence computation</title>
-      <link>https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/</link>
+      <title>Computing a Fibonacci sequence</title>
+      <link>https://lxip.github.io/2017/10/computing-a-fibonacci-sequence/</link>
       <pubDate>Wed, 25 Oct 2017 16:30:57 -0400</pubDate>
       <author>Email Contact (lxip)</author>
-      <guid>https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/</guid>
+      <guid>https://lxip.github.io/2017/10/computing-a-fibonacci-sequence/</guid>
       <description>I came across a question in codewars which is based on the calculation of the *n*th number in the Fabonacci sequence. Remember back in high school we were asked to derive this via MI, which is a long story. And thanks to the power of computation that gives options to simplify this process. Anyway, here are a few ways for solution:
-Math function this is put at the first place because for people who do math it is the most intuitive action to just calculate the result from $$F_n = \frac{1}{sqrt(5)}\bigg[ \big(\frac{1+sqrt(5)}{2}\big)^n - \big(\frac{1-sqrt(5)}{2}\big)^n \bigg]$$</description>
+1. Math function This is put at the first place because for people who do math it is the most intuitive action to just calculate the result from $$F_n = \frac{1}{sqrt(5)}\bigg[ \big(\frac{1+sqrt(5)}{2}\big)^n - \big(\frac{1-sqrt(5)}{2}\big)^n \bigg]$$ However, the calculation</description>
     </item>
     
   </channel>
