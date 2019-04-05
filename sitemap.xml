@@ -3,8 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/</loc>
+    <lastmod>2017-10-25T16:30:57-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/2017/10/quick-ml-logistic-regression/</loc>
+    <lastmod>2017-10-05T14:16:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/2017/10/quick-ml-linear-regression/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lxip.github.io/2017/09/getting-there...-static-site/</loc>
     <lastmod>2017-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/categories/algorithm/</loc>
+    <lastmod>2017-10-25T16:30:57-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -14,6 +35,7 @@
   
   <url>
     <loc>https://lxip.github.io/categories/</loc>
+    <lastmod>2017-10-25T16:30:57-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,8 +52,38 @@
   </url>
   
   <url>
+    <loc>https://lxip.github.io/categories/machine_learning/</loc>
+    <lastmod>2017-10-05T14:16:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/tags/math/</loc>
+    <lastmod>2017-10-25T16:30:57-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lxip.github.io/post/</loc>
-    <lastmod>2017-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-25T16:30:57-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/tags/python/</loc>
+    <lastmod>2017-10-25T16:30:57-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/tags/regression/</loc>
+    <lastmod>2017-10-05T14:16:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/tags/stats/</loc>
+    <lastmod>2017-10-05T14:16:13-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -43,7 +95,7 @@
   
   <url>
     <loc>https://lxip.github.io/</loc>
-    <lastmod>2017-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-25T16:30:57-04:00</lastmod>
     <priority>0</priority>
   </url>
   

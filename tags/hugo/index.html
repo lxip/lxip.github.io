@@ -261,6 +261,16 @@ With the free domain provided by Github, there has been a good amount of choices
   <span class="copyrights">
     &copy; 2017 lxip. Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>|Theme <a href="https://github.com/kakawait/hugo-tranquilpeak-theme" target="_blank">tranquilpeak</a>. All Rights Reserved
   </span>
+  <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 </footer>
 
       </div>
@@ -324,6 +334,63 @@ With the free domain provided by Github, there has been a good amount of choices
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/">
+                <h3 class="media-heading">Something about Fibonacci sequence computation</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">I came across a question in codewars which is based on the calculation of the *n*th number in the Fabonacci sequence. Remember back in high school we were asked to derive this via MI, which is a long story. And thanks to the power of computation that gives options to simplify this process. Anyway, here are a few ways for solution:
+Math function this is put at the first place because for people who do math it is the most intuitive action to just calculate the result from $$F_n = \frac{1}{sqrt(5)}\bigg[ \big(\frac{1+sqrt(5)}{2}\big)^n - \big(\frac{1-sqrt(5)}{2}\big)^n \bigg]$$</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://lxip.github.io/2017/10/quick-ml-logistic-regression/">
+                <h3 class="media-heading">Quick ML: logistic regression</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">Cost function $$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$
+$$Cost(h_\theta(X), y) = \begin{cases} -log(h_\theta(X)),&amp;\text{if }y=1 \\
+-log(1-h_\theta(X)),&amp;\text{if }y=0 \end{cases} $$
+P.S. Katex tips: in Hugo&rsquo;s math mode, to get line separator for multi-line equations, use &lsquo;\&rsquo; $\times 6$ instead of &lsquo;\\&lsquo;. And if a function faild, add &lsquo;\&rsquo; as escape char for random &lsquo;_&rsquo;s might help (annoying&hellip;I know&hellip;)</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://lxip.github.io/2017/10/quick-ml-linear-regression/">
+                <h3 class="media-heading">Quick ML: linear regression</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">Here is a series of course notes migration, in order to say-goodbye to the text books and my messy physical notepads.
+Hypothesis model $$H_\theta(X) = \theta^T X = \theta_0\cdot 1 + \theta_1\cdot x_1 + \cdots + \theta_n\cdot x_n$$ $\theta\in n+1$ column vector, $X\in (n+1)\times m$ matrix when having $m$ training cases.
+Cost function $$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://lxip.github.io/2017/09/getting-there...-static-site/">
                 <h3 class="media-heading">Getting there... static site</h3>
               </a>
@@ -347,7 +414,7 @@ With the free domain provided by Github, there has been a good amount of choices
               </a>
               <span class="media-meta">
                 <span class="media-date text-small">
-                  Sep 9, 2017
+                  Oct 10, 2017
                 </span>
               </span>
               <div class="media-content hide-xs font-merryweather"></div>
@@ -363,7 +430,7 @@ With the free domain provided by Github, there has been a good amount of choices
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         2 posts found
+         5 posts found
       </p>
     </div>
   </div>

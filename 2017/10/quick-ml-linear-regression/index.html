@@ -1,5 +1,9 @@
 
 
+  
+    
+  
+
 
   
 
@@ -17,25 +21,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.27.1">
     <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
-    <title>Tomorrow is 42</title>
+    <title>Quick ML: linear regression</title>
     <meta name="author" content="lxip">
     <meta name="keywords" content=", lxip, blog, photography">
 
     <link rel="icon" href="https://lxip.github.io/favicon.png">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://lxip.github.io/index.xml">
-    
 
     
-    <meta name="description" content="Tomorrow is 42">
-    <meta property="og:description" content="Tomorrow is 42">
+    <meta name="description" content="Here is a series of course notes migration, in order to say-goodbye to the text books and my messy physical notepads.
+Hypothesis model $$H_\theta(X) = \theta^T X = \theta_0\cdot 1 &#43; \theta_1\cdot x_1 &#43; \cdots &#43; \theta_n\cdot x_n$$ $\theta\in n&#43;1$ column vector, $X\in (n&#43;1)\times m$ matrix when having $m$ training cases.
+Cost function $$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$">
+    <meta property="og:description" content="Here is a series of course notes migration, in order to say-goodbye to the text books and my messy physical notepads.
+Hypothesis model $$H_\theta(X) = \theta^T X = \theta_0\cdot 1 &#43; \theta_1\cdot x_1 &#43; \cdots &#43; \theta_n\cdot x_n$$ $\theta\in n&#43;1$ column vector, $X\in (n&#43;1)\times m$ matrix when having $m$ training cases.
+Cost function $$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Tomorrow is 42">
-    <meta property="og:url" content="/">
+    <meta property="og:title" content="Quick ML: linear regression">
+    <meta property="og:url" content="/2017/10/quick-ml-linear-regression/">
     <meta property="og:site_name" content="Tomorrow is 42">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Tomorrow is 42">
-    <meta name="twitter:description" content="Tomorrow is 42">
+    <meta name="twitter:description" content="Here is a series of course notes migration, in order to say-goodbye to the text books and my messy physical notepads.
+Hypothesis model $$H_\theta(X) = \theta^T X = \theta_0\cdot 1 &#43; \theta_1\cdot x_1 &#43; \cdots &#43; \theta_n\cdot x_n$$ $\theta\in n&#43;1$ column vector, $X\in (n&#43;1)\times m$ matrix when having $m$ training cases.
+Cost function $$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$">
     
     
 
@@ -72,7 +80,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="https://lxip.github.io/">Tomorrow is 42</a>
@@ -80,7 +88,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="4">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -187,149 +195,20 @@
 
       
 
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="4"
         class="
                hasCoverMetaIn
                ">
-        <section class="postShorten-group main-content-wrap">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
           
           
-            
+            <div class="post-header main-content-wrap text-left">
   
-    
-      
-        
-      
-    
+    <h1 class="post-title" itemprop="headline">
+      Quick ML: linear regression
+    </h1>
   
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/">
-          Something about Fibonacci sequence computation
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2017-10-25T16:30:57-04:00">
-      
-  October 25, 2017
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://lxip.github.io/categories/algorithm">algorithm</a>
-    
-  
-
-
-</div>
-
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        I came across a question in codewars which is based on the calculation of the *n*th number in the Fabonacci sequence. Remember back in high school we were asked to derive this via MI, which is a long story. And thanks to the power of computation that gives options to simplify this process. Anyway, here are a few ways for solution:
-Math function this is put at the first place because for people who do math it is the most intuitive action to just calculate the result from $$F_n = \frac{1}{sqrt(5)}\bigg[ \big(\frac{1+sqrt(5)}{2}\big)^n - \big(\frac{1-sqrt(5)}{2}\big)^n \bigg]$$
-        <br>
-        <a href="https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
-
-          
-            
-  
-    
-      
-        
-      
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://lxip.github.io/2017/10/quick-ml-logistic-regression/">
-          Quick ML: logistic regression
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2017-10-05T14:16:13-04:00">
-      
-  October 5, 2017
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://lxip.github.io/categories/machine_learning">machine_learning</a>
-    
-  
-
-
-</div>
-
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        Cost function $$J(\theta) = \frac{1}{2m} \sum^m<em>{i=1} (H</em>\theta(X^{(i)}) - y^{(i)})^2$$
-$$Cost(h<em>\theta(X), y) = \begin{cases} -log(h</em>\theta(X)),&amp;\text{if }y=1 <br />
--log(1-h<em>\theta(X)),&amp;\text{if }y=0 \end{cases} $$
-P.S. Katex tips: in Hugo&rsquo;s math mode, to get line separator for multi-line equations, use &lsquo;&amp;rsquo; $\times 6$ instead of &lsquo;\&lsquo;. And if a function faild, add &lsquo;&amp;rsquo; as escape char for random &lsquo;</em>&rsquo;s might help (annoying&hellip;I know&hellip;)
-        <br>
-        <a href="https://lxip.github.io/2017/10/quick-ml-logistic-regression/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
-
-          
-            
-  
-    
-      
-        
-      
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://lxip.github.io/2017/10/quick-ml-linear-regression/">
-          Quick ML: linear regression
-        </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
+  <div class="postShorten-meta post-meta">
   
     <time itemprop="datePublished" datetime="2017-10-01T00:00:00Z">
       
@@ -349,81 +228,107 @@ P.S. Katex tips: in Hugo&rsquo;s math mode, to get line separator for multi-line
 
 </div>
 
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        Here is a series of course notes migration, in order to say-goodbye to the text books and my messy physical notepads.
-Hypothesis model $$H_\theta(X) = \theta^T X = \theta_0\cdot 1 + \theta_1\cdot x_1 + \cdots + \theta_n\cdot x<em>n$$ $\theta\in n+1$ column vector, $X\in (n+1)\times m$ matrix when having $m$ training cases.
-Cost function $$J(\theta) = \frac{1}{2m} \sum^m</em>{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$
-        <br>
-        <a href="https://lxip.github.io/2017/10/quick-ml-linear-regression/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
-
+</div>
           
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              
+
+<p><em>Here is a series of course notes migration, in order to say-goodbye to the text books and my messy physical notepads.</em></p>
+
+<h2 id="hypothesis-model">Hypothesis model</h2>
+
+<p>$$H_\theta(X) = \theta^T X = \theta_0\cdot 1 + \theta_1\cdot x_1 + \cdots + \theta_n\cdot x_n$$
+$\theta\in n+1$ column vector, $X\in (n+1)\times m$ matrix when having $m$ training cases.</p>
+
+<h2 id="cost-function">Cost function</h2>
+
+<p>$$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$</p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
             
-  
-    
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://lxip.github.io//tags/stats/">stats</a>
+
+  <a class="tag tag--primary tag--small" href="https://lxip.github.io//tags/regression/">regression</a>
+
+  <a class="tag tag--primary tag--small" href="https://lxip.github.io//tags/python/">python</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
       
-        
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://lxip.github.io/2017/10/quick-ml-logistic-regression/" data-tooltip="Quick ML: logistic regression">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://lxip.github.io/2017/09/getting-there...-static-site/" data-tooltip="Getting there... static site">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
       
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
     
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://lxip.github.io/2017/09/getting-there...-static-site/">
-          Getting there... static site
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
         </a>
-      </h1>
-      <div class="postShorten-meta post-meta">
-  
-    <time itemprop="datePublished" datetime="2017-09-24T00:00:00Z">
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+    <li class="post-action">
       
-  September 24, 2017
-
-    </time>
-  
-  
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://lxip.github.io/categories/frontend">frontend</a>
-    
-  
-
-
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
 </div>
 
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>
-        I have been thinking for a while putting up a blog recording random stuff. It might be a better way to keep track what I&rsquo;ve been looking at and regularize some massy notes. After wasting a summer leaving the plain template lying in my disk folder, it&rsquo;s good to start now since the season is getting closer to my background picture.
-With the free domain provided by Github, there has been a good amount of choices for set up a static website/blog.
-        <br>
-        <a href="https://lxip.github.io/2017/09/getting-there...-static-site/" class="postShorten-excerpt_link link">Continue reading</a>
-        
-      </p>
-    </div>
-  </div>
-  
-</article>
 
-          
-          
-
-        </section>
+            
+              
+            
+          </div>
+        </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2017 lxip. Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>|Theme <a href="https://github.com/kakawait/hugo-tranquilpeak-theme" target="_blank">tranquilpeak</a>. All Rights Reserved
@@ -441,6 +346,86 @@ With the free domain provided by Github, there has been a good amount of choices
 </footer>
 
       </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://lxip.github.io/2017/10/quick-ml-logistic-regression/" data-tooltip="Quick ML: logistic regression">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://lxip.github.io/2017/09/getting-there...-static-site/" data-tooltip="Getting there... static site">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <ul class="share-options">
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+        <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+        <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2flxip.github.io%2f2017%2f10%2fquick-ml-linear-regression%2f">
+        <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
     </div>
     
     <div id="about">
@@ -637,6 +622,10 @@ $(document).ready(function() {
 });
 </script>
 
+  
+    
+  
+
 
 
 
@@ -644,3 +633,4 @@ $(document).ready(function() {
     
   </body>
 </html>
+

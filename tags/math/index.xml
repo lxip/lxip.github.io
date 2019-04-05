@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Tomorrow is 42</title>
+    <link>https://lxip.github.io/tags/math/</link>
+    <description>Recent content in Math on Tomorrow is 42</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>Email Contact (lxip)</managingEditor>
+    <webMaster>Email Contact (lxip)</webMaster>
+    <lastBuildDate>Wed, 25 Oct 2017 16:30:57 -0400</lastBuildDate>
+    
+	<atom:link href="https://lxip.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Something about Fibonacci sequence computation</title>
+      <link>https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/</link>
+      <pubDate>Wed, 25 Oct 2017 16:30:57 -0400</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/2017/10/something-about-fibonacci-sequence-computation/</guid>
+      <description>I came across a question in codewars which is based on the calculation of the *n*th number in the Fabonacci sequence. Remember back in high school we were asked to derive this via MI, which is a long story. And thanks to the power of computation that gives options to simplify this process. Anyway, here are a few ways for solution:
+Math function this is put at the first place because for people who do math it is the most intuitive action to just calculate the result from $$F_n = \frac{1}{sqrt(5)}\bigg[ \big(\frac{1+sqrt(5)}{2}\big)^n - \big(\frac{1-sqrt(5)}{2}\big)^n \bigg]$$</description>
+    </item>
+    
+  </channel>
+</rss>

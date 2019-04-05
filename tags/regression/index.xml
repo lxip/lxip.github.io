@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regression on Tomorrow is 42</title>
+    <link>https://lxip.github.io/tags/regression/</link>
+    <description>Recent content in Regression on Tomorrow is 42</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>Email Contact (lxip)</managingEditor>
+    <webMaster>Email Contact (lxip)</webMaster>
+    <lastBuildDate>Thu, 05 Oct 2017 14:16:13 -0400</lastBuildDate>
+    
+	<atom:link href="https://lxip.github.io/tags/regression/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick ML: logistic regression</title>
+      <link>https://lxip.github.io/2017/10/quick-ml-logistic-regression/</link>
+      <pubDate>Thu, 05 Oct 2017 14:16:13 -0400</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/2017/10/quick-ml-logistic-regression/</guid>
+      <description>Cost function $$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$
+$$Cost(h_\theta(X), y) = \begin{cases} -log(h_\theta(X)),&amp;amp;\text{if }y=1 \\
+-log(1-h_\theta(X)),&amp;amp;\text{if }y=0 \end{cases} $$
+P.S. Katex tips: in Hugo&amp;rsquo;s math mode, to get line separator for multi-line equations, use &amp;lsquo;\&amp;rsquo; $\times 6$ instead of &amp;lsquo;\\&amp;lsquo;. And if a function faild, add &amp;lsquo;\&amp;rsquo; as escape char for random &amp;lsquo;_&amp;rsquo;s might help (annoying&amp;hellip;I know&amp;hellip;)</description>
+    </item>
+    
+    <item>
+      <title>Quick ML: linear regression</title>
+      <link>https://lxip.github.io/2017/10/quick-ml-linear-regression/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/2017/10/quick-ml-linear-regression/</guid>
+      <description>Here is a series of course notes migration, in order to say-goodbye to the text books and my messy physical notepads.
+Hypothesis model $$H_\theta(X) = \theta^T X = \theta_0\cdot 1 + \theta_1\cdot x_1 + \cdots + \theta_n\cdot x_n$$ $\theta\in n+1$ column vector, $X\in (n+1)\times m$ matrix when having $m$ training cases.
+Cost function $$J(\theta) = \frac{1}{2m} \sum^m_{i=1} (H_\theta(X^{(i)}) - y^{(i)})^2$$</description>
+    </item>
+    
+  </channel>
+</rss>

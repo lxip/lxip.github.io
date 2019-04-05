@@ -8,9 +8,19 @@
     <language>en-us</language>
     <managingEditor>Email Contact (lxip)</managingEditor>
     <webMaster>Email Contact (lxip)</webMaster>
+    <lastBuildDate>Wed, 25 Oct 2017 16:30:57 -0400</lastBuildDate>
     
 	<atom:link href="https://lxip.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Algorithm</title>
+      <link>https://lxip.github.io/categories/algorithm/</link>
+      <pubDate>Wed, 25 Oct 2017 16:30:57 -0400</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/categories/algorithm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Frontend</title>
@@ -18,6 +28,15 @@
       <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
       <author>Email Contact (lxip)</author>
       <guid>https://lxip.github.io/categories/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine_learning</title>
+      <link>https://lxip.github.io/categories/machine_learning/</link>
+      <pubDate>Thu, 05 Oct 2017 14:16:13 -0400</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/categories/machine_learning/</guid>
       <description></description>
     </item>
     

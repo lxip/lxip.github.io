@@ -1,0 +1,16 @@
+---
+title: "Something about Fibonacci sequence computation"
+date: 2017-10-25T16:30:57-04:00
+categories:
+- algorithm
+tags:
+- math
+- python
+---
+
+I came across a question in <a href="https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle/" target="_blank">codewars</a> which is based on the calculation of the *n*th number in the Fabonacci sequence. Remember back in high school we were asked to derive this via MI, which is a long story. And thanks to the power of computation that gives options to simplify this process. Anyway, here are a few ways for solution:
+
+## Math function    
+this is put at the first place because for people who do math it is the most intuitive action to just calculate the result from
+$$F_n = \frac{1}{sqrt(5)}\bigg[ \big(\frac{1+sqrt(5)}{2}\big)^n - \big(\frac{1-sqrt(5)}{2}\big)^n \bigg]$$
+
