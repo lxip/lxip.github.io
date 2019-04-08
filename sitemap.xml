@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lxip.github.io/2019/04/cbf1-01-how-are-you/</loc>
+    <lastmod>2019-04-07T23:18:11-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lxip.github.io/2017/11/the-ultimate-tour-to-my-python-environment/</loc>
     <lastmod>2017-11-09T00:32:36-05:00</lastmod>
   </url>
@@ -45,6 +50,12 @@
   </url>
   
   <url>
+    <loc>https://lxip.github.io/tags/cbf/</loc>
+    <lastmod>2019-04-07T23:18:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lxip.github.io/categories/development/</loc>
     <lastmod>2017-11-09T00:32:36-05:00</lastmod>
     <priority>0</priority>
@@ -53,6 +64,12 @@
   <url>
     <loc>https://lxip.github.io/tags/docker/</loc>
     <lastmod>2017-11-09T00:32:36-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lxip.github.io/categories/french/</loc>
+    <lastmod>2019-04-07T23:18:11-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,7 +93,7 @@
   
   <url>
     <loc>https://lxip.github.io/post/</loc>
-    <lastmod>2017-11-09T00:32:36-05:00</lastmod>
+    <lastmod>2019-04-07T23:18:11-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -100,13 +117,13 @@
   
   <url>
     <loc>https://lxip.github.io/tags/</loc>
-    <lastmod>2017-11-09T00:32:36-05:00</lastmod>
+    <lastmod>2019-04-07T23:18:11-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lxip.github.io/</loc>
-    <lastmod>2017-11-09T00:32:36-05:00</lastmod>
+    <lastmod>2019-04-07T23:18:11-04:00</lastmod>
     <priority>0</priority>
   </url>
   
