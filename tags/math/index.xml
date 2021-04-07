@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>Email Contact (lxip)</managingEditor>
     <webMaster>Email Contact (lxip)</webMaster>
-    <lastBuildDate>Wed, 25 Oct 2017 16:30:57 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 05 Apr 2021 23:19:49 -0400</lastBuildDate>
     
 	<atom:link href="https://lxip.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mental Math: Calculate ... in Your Head</title>
+      <link>https://lxip.github.io/2021/04/mental-math-calculate-...-in-your-head/</link>
+      <pubDate>Mon, 05 Apr 2021 23:19:49 -0400</pubDate>
+      <author>Email Contact (lxip)</author>
+      <guid>https://lxip.github.io/2021/04/mental-math-calculate-...-in-your-head/</guid>
+      <description>Recently I start realising the decline of my math instinct. The other day, it took me a few minutes to remember the Gaussian sum and more minutes for the very basic Trigonometry. The only thing about calculation remains sharp in my mind is probably the Chinese multiplication table. I&amp;rsquo;m having a hard time to admit that it would be hard for me to pass a high school entrance math tests.</description>
+    </item>
     
     <item>
       <title>Computing a Fibonacci sequence</title>
